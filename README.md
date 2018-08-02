@@ -14,9 +14,11 @@ Print a list of only the dotm files that contain a '$' symbol in their original 
 
 Here's a sneak peek inside a dotm file:
 
+```
 PK!��Ǉ�4\[Content\_Types\].xml �(��U�n�0��?������C��u�^)re� �N��\]=��m,�q| �;3;K�ί�L�� D�l�.�K�J��\]����.�Ȓ��\*Q99�Cd׋��櫽��P��9� �O�G�#b�<X�)\]0�7���X���>p�,��k���B)�&�'Zn�ڲ�=WS�Lx\_i)���U���+K-!��!� ���Tq�O�i'7�Ȇ1n�����z��.�3����A����.(���2$�鲮C2�IdF��V���Emj���m���vC�rљ��$RY|�����ma{\[z�j�kq4;�5��'��~��$�Hp��z�!#��F�W�^A�;����Ͳ,�yLQBϪ�`-ų�q6@$������c�<\*��/gS�|TH�Z��}=*�:��򨄒:���Mo�z�QHS x�=�50C�Ե��GS.�"��䩣Sj;�\]�H#�d����  
 �ܼ���_��PK!���N_rels/.rels �(����JA���a�}7�  
 "���H�w"����w̤ھ�� �P�^����O֛���;�<�aYՠ؛`G�kxm��PY�\[��g  
 Gΰino�/<���<�1��ⳆA$>"f3��\\�ȾT��I S����������W����Y  
 ig�@��X6_�\]7~  
 f��ˉ�ao�.b*lI�r�j)�,l0�%��b�  
+```
