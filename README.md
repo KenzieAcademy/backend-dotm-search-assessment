@@ -2,11 +2,11 @@
 
 This is a real-world problem that I recently helped my brother with.  He works at a law firm where they still use MSWord, and probably always will.  Along with FAX machines.
 
-The **DOTM**file extension is a Microsoft Word File template developed by Microsoft Corporation in its version of 2007 and 2010 document template files. ... It is identical to .DOCX and .DOCM file in which the M stands for macro and the X stands for XML.
+The **DOTM** file extension is a Microsoft Word File template developed by Microsoft Corporation in its version of 2007 and 2010 document template files. ... It is identical to .DOCX and .DOCM file in which the M stands for macro and the X stands for XML.
 
 The law firm makes extensive use of dotm template files to issue billing invoices.  These template files had hard-coded pricing amounts that needed to be updated manually.  But in their large collection of templates, they did not know which files contained pricing info.
 
-By searching the dotm files for a '$' character, you can determine the subset of files that needs to be reviewed and updated.  However, the dotm file is not a plain text file that can simply be read into python and examined ... Use your Google search and Stack Overflow to find out how dotm files can be decoded in python.
+By searching the dotm files for a '$' character, you can determine the subset of files that needs to be reviewed and updated.  However, the dotm file is not a plain text file that can simply be read into python and examined ... Use your Google search and Stack Overflow skills to find out how dotm files can be decoded in python.  NOTE: Timebox your DOTM format research.  If you have not figured out the DOTM file format in 20 minutes, ask an instructor for a hint.
 
 Write a python program to iterate through each file in the dotm_files directory.
 
