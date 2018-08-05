@@ -21,23 +21,23 @@ By searching the dotm files for a '$' character, you can determine the subset of
 Write a python program named `dotm_search.py`.  
 Your program should accept two commandline arguments: first argument is the directory of .dotm files to scan, and the second argument is a text string to search for within each .dotm file. Example:
 ```
-python dotm_search.py --dir "./dotm_files" --text "some text"
+python dotm_search.py "some text" --dir "./dotm_files"
 ```
 
 - Your program should print the full path name of each file that was found to contain the search text.  If the file contains multiple matches, just count it as a single match.
 - For context, print a partial line of the dotm text that was found to contain the search text.  Limit the printed line to +/- 40 characters on each side of the matched text.  Example: `"...alculated on a per article basis (up to $500 each), the total false marking penal..."`
-- Count the total number of file matches and display that as a final result.
+- Count the total number of file matches as well as total number of files searched, and display the results before exiting.
 
 
 ## Some Tips
+- Disregard (do not search) files without a .dotm extension.  Don't count them as searched files either.
 - Inside the `.dotm` file, the section to search is `'word/document.xml'`
 - You may wish to investigate the [argparse](https://docs.python.org/2/howto/argparse.html) standard library.
 - Use the python idiom `if __name__ == '__main__'` in your program.
 
 ## Sample Output
 ```
-python dotm_search.py --dir "." --text "$"
-Searching ./dotm_files for text '$' ...
+Searching directory ./dotm_files for text '$' ...
 Match found in file ./dotm_files\G004.dotm
    ...t></w:r><w:r><w:t xml:space="preserve"> $5,000. </w:t></w:r><w:r w:rsidRPr="0049...
 Match found in file ./dotm_files\L003.dotm
@@ -56,7 +56,8 @@ Match found in file ./dotm_files\TM904US.dotm
    ...n of the sum of One and No/100 Dollars ($1.00) and other good and valuable consi...
 Match found in file ./dotm_files\UM082US.dotm
    ...preserve"> money order in the amount of $</w:t></w:r><w:sdt><w:sdtPr><w:id w:val...
-Total files matched: 10
+Total dotm files searched: 799
+Total dotm files matched: 9
 ```
 
 
