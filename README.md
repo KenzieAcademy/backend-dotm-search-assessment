@@ -9,7 +9,7 @@
  
 <hr>
 
-This is a real-world problem that I recently helped a friend with.  He works at a law firm where they still use MSWord, and probably always will.  Along with FAX machines.  He wanted to try his hand at some python programming.
+This is a real-world problem that I recently helped a friend with.  He works at a law firm where they still use MSWord, and probably always will.  Along with FACSIMILE machines.  He wanted to try his hand at some python programming.
 
 The **DOTM** file extension is a Microsoft Word File template developed by Microsoft Corporation in its version of 2007 and 2010 document template files. ... It is identical to .DOCX and .DOCM file in which the M stands for macro and the X stands for XML.
 
@@ -19,9 +19,12 @@ By searching the dotm files for a '$' character, you can determine the subset of
 
 ## Your Task
 Write a python program named `dotm_search.py`.  
-Your program should accept two commandline arguments: first argument is the directory of .dotm files to scan, and the second argument is a text string to search for within each .dotm file. Example:
+Your program should accept two commandline arguments: First argument is the text to search. 
+The second argument is an OPTIONAL directory of .dotm files to scan.  If this argument is omitted,
+the default path to search is the current directory.
 ```
 python dotm_search.py "some text" --dir "./dotm_files"
+python dotm_search.py "other text"  # defaults to current dir search.
 ```
 
 - Your program should print the full path name of each file that was found to contain the search text.  If the file contains multiple matches, just count it as a single match.
