@@ -19,7 +19,7 @@ By searching the dotm files for a '$' character, you can determine the subset of
 
 ## Your Task
 Write a python program named `dotm_search.py`.  
-Your program should accept two commandline arguments: First argument is the text to search. 
+Your program should accept two cmdline arguments: First argument is the text to search. 
 The second argument is an OPTIONAL directory of .dotm files to scan.  If this argument is omitted,
 the default path to search is the current directory.
 ```
