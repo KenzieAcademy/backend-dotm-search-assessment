@@ -24,7 +24,7 @@ The second argument is an OPTIONAL directory of .dotm files to scan.  If this ar
 the default path to search is the current directory.
 ```
 python dotm_search.py "some text" --dir "./dotm_files"
-python dotm_search.py "other text"  # defaults to current dir search.
+python dotm_search.py "other text"
 ```
 
 - Your program should print the full path name of each file that was found to contain the search text.  If the file contains multiple matches, just count it as a single match.
