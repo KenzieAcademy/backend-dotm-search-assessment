@@ -37,6 +37,9 @@ python dotm_search.py "other text"
 - Inside the `.dotm` file, the section to search is `'word/document.xml'`
 - Use the [argparse](https://docs.python.org/2/howto/argparse.html) standard library to create a parser object within your program, and acquire the command line parameters from the parser instead of directly parsing sys.argv yourself.
 - Use the python idiom `if __name__ == '__main__'` in your program.
+- You DO NOT need to parse the contents into an XmlTree.  Just search the raw xml.
+- You DO NOT need to count all occurrances of the search text.  Just count lines that contain at least one occurance of the search text.
+- HINT: Have a look at this handy index of [File Signatures](https://en.wikipedia.org/wiki/List_of_file_signatures) that correspond to the starting bytes of various file formats.
 
 ## PR (Pull Request) Workflow for this Assignment
 1. *Fork* this repository into your own personal github account.
