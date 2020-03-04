@@ -78,7 +78,7 @@ Match found in file ./dotm_files/P646US.dotm
 Match found in file ./dotm_files/TM409IP.dotm
    ...:highlight w:val="yellow"/></w:rPr><w:t>$</w:t></w:r><w:r w:rsidR="00F95017"><w:...
 Total dotm files searched: 799
-Total dotm files matched: 72
+Total dotm files matched: 71
 ```
 
 
